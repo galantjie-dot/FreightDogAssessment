@@ -24,7 +24,7 @@ Feature: Freightdog AI Outlook Add-in
     And the extracted data should match the information in the original email
 
 
-//Negative scenarios
+## Negative scenarios
 
 Scenario: Handle email with missing or malformed data
   Given I have opened the Freightdog AI add-in
@@ -34,3 +34,5 @@ Scenario: Handle email with missing or malformed data
   And attempt data extraction
   And display a clear error message or warning indicating missing or invalid fields
   And allow me to continue without crashing the add-in
+
+

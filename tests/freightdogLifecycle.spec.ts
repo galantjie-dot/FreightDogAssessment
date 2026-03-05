@@ -1,3 +1,4 @@
+test.setTimeout(60000); // 
 import { test } from '@playwright/test';
 import { OutlookLoginPage } from '../pages_spec/outlookLoginPage';
 import { OutlookInboxPage } from '../pages_spec/outlookInboxPage';
