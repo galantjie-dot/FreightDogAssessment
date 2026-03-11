@@ -7,7 +7,7 @@ dotenv.config();
 export default defineConfig({
   use: {
     baseURL: 'https://outlook.office365.com',
-    headless: false,
+    headless: true,
   },
 
   // Configure projects for major browsers
